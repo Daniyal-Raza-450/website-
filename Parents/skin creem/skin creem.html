@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+<!-- ====================database====== -->
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+
+
+<script>
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyCwDSLn1bfcvsjWgXxeqEGPEVvvowohPdo",
+    authDomain: "assignment8-473a4.firebaseapp.com",
+    databaseURL: "https://assignment8-473a4-default-rtdb.firebaseio.com",
+    projectId: "assignment8-473a4",
+    storageBucket: "assignment8-473a4.appspot.com",
+    messagingSenderId: "738028186750",
+    appId: "1:738028186750:web:ab4fbba296ce1908b4fc2f",
+    measurementId: "G-05QTBLCH3L"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+
+</script>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+
+    <div id="mainheader">
+        <nav class="firstnave  ">
+    
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiq2JmsWUPR3Iei7c7Cn8efjaJhIbPDWYqxQ&usqp=CAU"
+            alt="">
+          <a class=" text-decoration-none text  " href="#">
+            ALINA COSMATIC SHOP</a>
+    
+        </nav>
+        <nav class="navbar navbar-expand-lg  navbar-light bg-light sticky-top   ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img
+                src="https://i.pinimg.com/originals/14/2a/ff/142aff8821881efd7d6985f74310da55.png" style="width: 5rem;"
+                alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse  navbar-collapse" id="navbarSupportedContent">
+    
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                 Categories
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="shampu/shampu.html">Shampoo</a></li>
+                  <li><a class="dropdown-item" href="#">Face Cream </a></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                </ul>
+              </div>
+    
+              <ul class="navbar-nav mb-auto  mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="../All.html">All</a>
+                </li>
+    
+    
+              </ul>
+    
+            </div>
+          </div>
+        </nav>
+
+        
+<!-- ================================card==========================================
+ -->
+
+ <div class="listcatg">
+
+  <div class="row row-cols-1 mx-2 mb-2 row-cols-md-5 g-10">
+    <div class="col">
+      <div class="card h-100">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4akHR2b79LVjagoTv4LoD_HweIiYP5Rbc3g&usqp=CAU"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">OLAY</h5>
+          <p class="card-text">Ze Light OEM Natural Moisturizing Lightening Rapid White Private Label Korean Aloe Vera Collagen Organic Beauty Face Cream. <br> <br> <span class="sp">Price :</span> <span class="sp">550</span></p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+          <button type="button" class="btn btn-primary">AddToCard</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+
+
+
+
+        <!-- foooter====================== -->
+
+
+
+        
+    <div class="mainfooter ">
+
+        <div class="footer col-md-4">
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Payment Options</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Shipping Information</a></li>
+  
+          </ul>
+        </div>
+        <div class="footer col-md-4">
+          <ul>
+            <li><a href="#">Customer Service</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Return / Exchange</a></li>
+            <li><a href="#">Reviews & Testimonials</a></li>
+  
+  
+          </ul>
+        </div>
+  
+  
+        
+        <div class="footer col-md-4">
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+       
+    <div class="logomain">
+    
+    
+    <li><a href="03072154364"><img class=" logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMO5XzGW1of9gJKNL0GZ63D5pEzqXolR7fjA&usqp=CAU" alt=""></a></li>
+    <li><a href="#"><img class=" logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAmVBMVEU7WZj///9DYJtJZZ4/Xps3VZb3+PspTJGYpccxUZNIYp2/yd3d4uxjeavY3ek9XJtQbKUwUZdzh69ofarz9ffI0dqClrVbdaUlSY+vutLr7vWBkrrP1+aqttFWbqUoS5Dg5emZqcDCytfj5+2Onrx6jrK1wM9whrWNnsPT2ebHz+GgrswfRY53jLhrf6+jr8uOoLu5w9JdeKa56c0yAAAEzklEQVR4nO3daXeiMBSA4aAECFuhat3tYhdAbWfm//+40Vo7c860cCWG5Gbu+2E+zGmR54RFClHmfHR3P8jCsG9DYZgNftydYOz9X290LXLO7Inn+eDB+yNcP3KrfO8JcROfhPG10L06ShKD0VG4thR4IMYHofdoK3BPfBruhSPr9sC/Es97obXb6CE+9tidzUDG/BG7z3WvhNLyGzaweTc8bKasr3sdFNdnPd2roLie9UKXhOgjIf5IiD8S4o+E+CMh/kiIPxLij4T4QyDkp9r9usFCLvzbya0vxNEnuBC+Pzl2/G/QYgwV8j2FZy/FMqrKNH4vTcvFooqi6XITFLuXJAuZ2P9Q46JMFPLJliebaubU5nmzdRqFjUTzhEJkReXV6/6UNd51MUzIRTiPwLz9QCITcr4qFnAeOiEXWVCe5XNwbaWCz+G7H8Yx9PvThoMncuEkSc8eQFTC7a6Nz0GzH/Jt0RKIZAx5/tbOh2UMOd+0HEEkY8h5MGw9hDiE8xZnic8QCEUSSwARjCHvRRJADEIRyAARCEXW+jB6zHjhVmobRTCGfiIHNH8M/fOud/GNof8iO4SmC0UlKzR8KxWJzLsZDGPoLyVPFaYLeZjKAg0X+jvpjdTw/TBfygONHkMeyp4MD5ksFK8yl00ohMUZl/bebH24v/ZPZd9gIZ+CeXH1Nk+y0L36t+bX0SbkLvSyogwS5vu54F/V/ELahGIFO9AM31a+kJnWo08IO9DMCiY580yfEPQnNi9o+wjGZ/qEoD/kR0x63pm+I80GAIxf5SdH6hNC3rNF0tuozvMh4HQ4LHz519El5C5AuE4uMINXnxBwwk/dC8xv1SYMAcLqEpOwjRZOL7AbGi30ltYLN7cXeCWjhYH1Y0hCUCRUFQlJCI+EqiIhCeGRUFUkJCE8EqqKhCSER0JVWSIU3+dfQYTbmiW8p1noJjW9Nj+X6C1XdUvYLyPRKxTjuC7AsyaztHYJcVwBNmOVQulHnBtbbG0XLq0XFhPbhTvr90PIPWLUQsDTpciFaxewGqiFC8htftTCqeZ3beqFG+uFhfXCne1CL7H9SDNb2S4s+7YLI8gJH7VwCloNzMIN6MlFzMLCdqE3Bz2ciVg4gz3mjliYjm3fSqvMdmHUs10IOx1iFsJOh4iFHujqELNwBjsdIhaugbO+8ApL0PUvZmEFujrELIyu9AtXX82g/wxyh7T8/tfjADjrS+l9/K8m0B9zGehJhfzbJbig63vlwi9n0H98wjrgk+i8YFKzBCOENVnytElNJCQhPBKqioQkhEdCVZGQhPBIqCoSkhAeCVVFQhLCI6GqSEhCeCRUFQlJCI+EqiIhCeGRUFUkJCE8EqqKhCSER0JVkZCE8EioKhKSEB4JVUVCEsIjoapISEJ4JFQVCUkIj4SqIiEJ4ZFQVSQkITwSqoqEJIT3Pwj7F1jK+XUnDNmvC3xv8vl1JuQr9iOXX0yLF+5KmN+w1G6h/8CcgY7NtCshz4bMebBZmD87zBk+XeIrzM+sI6G4Hu6FTjzontiNMB+XzkHolN0TOxGK8YNzFDrxk+h4Z+xAyPPr1DkJneHP8STvEgkTtv/2eC4mq+fjx4mx0+JGj7/6vc5ys8jxmgp428X3xzcj70P2G0SvfjFQUs1EAAAAAElFTkSuQmCC" alt=""></a></li>
+    <li><a href="#"><img src="" alt=""></a></li>
+    
+    </div>
+         
+    
+          </ul>
+        </div>
+        
+        
+      </div>
+    </div>
+      
+  
+
+  
+  
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+  <script src="app.js"></script>
+  
+    
+</body>
+</html>

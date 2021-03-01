@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0%;
+  
+  
+}
+.carousel-item img{
+    width: 100%;
+    height: 50vh;
+
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+   /* height:268px; */
+  }
+
+  .firstnave{
+      background-color:gray;
+      position: relative;
+
+      
+  }
+  .text {
+      font-weight: 700;
+      font-size: 2rem;
+    margin-left: 34% ;
+   display: inline-block;
+   justify-content: center;
+   color: black;
+   margin-top: 10px;
+      
+  }
+  .text:hover{
+      color: black;
+
+  }
+  .firstnave img{
+      position: relative;
+      width: 70px;
+      height: 66px;
+      margin-top: -22px; 
+
+      
+  }
+.d-flex{
+    margin-left: 31%;
+    padding-left: 0rem;
+}
+.margin{
+    margin: 0px 50px;
+}
+.listcatg{
+    display: flex;
+}
+.catag li a{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: black;
+    text-decoration: none;
+  
+}
+.catag li a:hover{
+    text-decoration: underline;
+}
+
+
+.catag li{
+    text-decoration: none;
+}
+
+
+
+.wid{
+    width: 80%;
+    margin: 0px 140px;
+}
+
+
+.catage{
+    background-color: pink;
+    margin-top: 5px;
+   
+}
+.new{
+    margin: 20px;
+}
+.mainfooter{
+    border: 1px solid black;
+    display: flex;
+    cursor: pointer;
+    background-color: rgba(85, 84, 84, 0.925);
+    padding: 20px  ;
+    font-size: 20px;
+
+}
+.footer ul li a:hover {
+    text-decoration: underline;
+    color: white;
+
+}
+
+.footer li a{
+    text-decoration: none;
+    color: darkslategray;
+}
+.listcatg{
+    /* background-color: gray; */
+    /* bor */
+    cursor: pointer;
+}
+.daniyal div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.col{
+    margin-top: 20px;
+}
+.img{
+    height: 40%;
+}
+.height{
+    height: 42%;
+}
+.limit{
+    height: 46%;
+}
+.pic{
+    height: 55%;
+}
+
+.mainfooter div li{
+    list-style: none;
+    
+}
+.mainfooter div li a{
+    color: black;
+    font-weight: 600;
+   
+}
+/* .mainfooter {
+    display: flex;
+    justify-content: space-between;
+} */
+/* .image{
+    border-radius: 200px;
+} */
+
+.logo{
+   border-radius: 80%  ;
+width: 30px;
+margin:5px  5px;
+background-color: white;
+
+}
+.logomain{
+   display: flex; 
+   
+   
+}
+.sp{
+    font-weight: 800;
+}
